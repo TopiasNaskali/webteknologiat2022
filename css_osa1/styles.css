@@ -1,0 +1,63 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    width: 60%;
+    margin: auto;
+}
+form{
+    background-color: #cce6ff;
+}
+fieldset{
+    background-color: #b3d9ff;
+    margin: 10px;
+    border-radius: 10px;
+    border-style: dotted; 
+}
+legend{
+    font-size: 1.2em;
+}
+label{
+    margin: 4px;
+}
+input, textarea{
+border-radius: 5px;
+border-width: 1px;
+border-color: #596f85;
+}
+input:focus, textarea:focus{
+    background-color: aquamarine;
+}
+textarea{
+    height: 100px;
+    width: 100%;
+}
+input[type=submit]{
+    background-color: chartreuse;
+    width: 70px;
+    height: 26px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+fieldset.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 200px;
+    justify-content: space-around;
+}
+input.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.labeli{
+padding-right: 37px;
+}
+#SendButton{
+    float: right;
+}

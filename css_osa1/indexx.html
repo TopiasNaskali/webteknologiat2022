@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <form>
+        <fieldset class="container">
+            <legend>Contact information:</legend>
+                <div class="container">
+                    <div class="input-container">
+                        <label>First name:</label>
+                        <input type="text" id="fname" name="fname">
+                    </div>
+                        <!--<label>Preferred contact method:</label>-->
+                    <div class="input-container">
+                        <label>Last name:</label>
+                         <input type="text" id="lname" name="lname">
+                        <!--<input type="checkbox" id="pmethod" name="pmethod"><label> Email</label>-->
+                    </div>
+                    
+                    <div class="input-container">    
+                    <label class="labeli">Email:</label>
+                         <input type="email" id="email" name="email">
+                       <!--<input type="checkbox" id="pmethod" name="pmethod"><label> Telephone</label>-->
+                    </div>
+                
+                    <div class="input-container">
+                        <label>Telephone:</label>
+                        <input type="text" id="telephone" name="telephone">
+                    </div>
+                    </div>
+                    <div class="container">
+                        <div class="input-container">
+                        <label>Preferred contact method:</label>
+                    </div>
+                        <div class="input-container"> 
+                        <input type="checkbox">
+                         <label> Email</label>
+                        </div>
+                        <div class="input-container">
+                         <input type="checkbox">
+                         <label> Telephone</label>
+                        </div>
+                        </div>
+                    </div>
+             </fieldset>
+
+            <fieldset class="container">               
+                <legend>Feedback:</legend>
+                <div class="container">
+
+                    <div class="input-container">
+                        <label for="subject">Message subject:</label>
+                         <input type="text" id="Message" name="message">
+                    </div>
+                    
+                    <textarea name="message" rows="15" cols="60">  </textarea><br>
+                    <div class="input-container">
+                    <label for="myfile">Attach a file:</label>
+                    <input type="file" id="myfile" name="myfile"><br><br>
+                    </div>
+                    <div class="input-container">
+                    <input id="SendButton" type="submit" value="Send"></div>
+                    </div>
+
+            </fieldset>
+
+        </form>
+
+    </body>
+
+</html>

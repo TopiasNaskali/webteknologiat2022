@@ -1,0 +1,21 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 13px;
+}
+body{
+    width: 67%;
+    margin: auto;
+    background-color: aliceblue;
+  
+}
+.Lista{
+    background-color: blue;
+    width: 129px;
+}
+.taulukko{
+    background-color: black;
+    color: aliceblue;
+    width: 360px;
+    height: 270px;
+    
+}
