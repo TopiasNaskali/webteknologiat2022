@@ -1,0 +1,40 @@
+body{
+    background-color: beige;
+    width: 50%;
+    left: 25%;
+    position: absolute;
+    
+}
+
+.otsikko{
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+}
+
+.eka{
+   width: 500px;
+   height: 50px;
+    padding: 10px;
+}
+
+.dropout{
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+}
+
+.toka{
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+}
+
+.tulos{
+    width: 500px;
+    height: 90px;
+    padding: 20px;
+}
+
+
+
