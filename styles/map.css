@@ -1,0 +1,28 @@
+body{
+    position: absolute;
+    background-color: aquamarine;
+    left: 25%;
+}
+
+.otsikko{
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.frame{
+    padding: 10px;
+}
+
+.content{
+    padding: 10px;
+}
+
+.nappula{
+    padding: 10px;
+    position: absolute;
+    left: 45%;
+}
+
+
+
